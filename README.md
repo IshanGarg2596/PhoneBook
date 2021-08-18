@@ -1,2 +1,3 @@
 # ContactKeeper
-full stack Mern contact keeper app 
+
+full stack MERN contact manager app

@@ -4,12 +4,13 @@ import ContactContext from "../../context/contact/contactContext";
 
 const ContactItem = ({ contact }) => {
   const contactContext = useContext(ContactContext);
-  const { deleteContact } = contactContext;
+  const { deleteContact, setCurrent, clearCurrent } = contactContext;
 
   const { id, name, email, phone, type } = contact;
 
   const onDelete = () => {
     deleteContact(id);
+    clearCurrent();
   };
 
   return (
@@ -45,6 +46,7 @@ const ContactItem = ({ contact }) => {
         <i
           className="fas fa-pen text-primary"
           style={{ cursor: "pointer" }}
+          onClick={() => setCurrent(contact)}
         ></i>{" "}
         <i
           className="fas fa-trash text-danger"

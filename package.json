@@ -1,5 +1,5 @@
 {
-  "name": "contactkeeper",
+  "name": "PhoneBook",
   "version": "1.0.0",
   "description": "contact manager app",
   "main": "server.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IshanGarg2596/ContactKeeper.git"
+    "url": "git+https://github.com/IshanGarg2596/PhoneBook.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IshanGarg2596/ContactKeeper/issues"
+    "url": "https://github.com/IshanGarg2596/PhoneBook/issues"
   },
-  "homepage": "https://github.com/IshanGarg2596/ContactKeeper#readme",
+  "homepage": "https://github.com/IshanGarg2596/PhoneBook#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
